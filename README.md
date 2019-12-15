@@ -1,8 +1,10 @@
+Link to live app: https://dbb-petful-app.now.sh/
+
+Link to API repo: https://github.com/thinkful-ei-gecko/DBB-PetfulServer
+
 # Petful client
 
 Created by Daniel Nichols, Brock Boutwell, and Badri Tulsiram as part of Thinkful's Engineering Immersion Program.
-
-Link to live application: www.petful.sh //Finish deploy
 
 ## Welcomme to Petful
 
