@@ -9,12 +9,14 @@ export default function DisplayAnimal(props) {
       <div>
         <h3>{animal.name}</h3>
       </div>
-      <div className="image">
-        <img
-          className="image"
-          src={animal.imageURL}
-          alt={animal.imageDescription}
-        />
+      <div className='image-container'>
+        <div className="image">
+          <img
+            className="image"
+            src={animal.imageURL}
+            alt={animal.imageDescription}
+          />
+        </div>
       </div>
       <div className="info">
         <span>{animal.sex}</span>, <span>{animal.age}</span>,{' '}
