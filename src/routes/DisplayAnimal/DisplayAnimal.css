@@ -7,10 +7,14 @@
 .image-container {
     height: 200px;
     width: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .image {
-    width: 150px;
+    width: 250px;
     height: relative;
-
 }

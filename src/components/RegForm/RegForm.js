@@ -33,12 +33,14 @@ export default class RegistrationForm extends Component {
     const { error } = this.state;
     return (
       <form className="RegistrationForm" onSubmit={this.handleSubmit}>
-        <div role="alert">{error && <p className="red">{error}</p>}</div>
+        <div aria-live="polite" role="alert">{error && <p className="red">{error}</p>}</div>
         <div className="FullName">
           <label htmlFor="RegistrationFormFullName">
             Full name <Required />
           </label>
           <Input
+          aria-label="full name"
+          aria-required='true'
             name="fullname"
             type="text"
             placeholder="Test User"
@@ -51,6 +53,8 @@ export default class RegistrationForm extends Component {
             Email <Required />
           </label>
           <Input
+          aria-label="Email"
+          aria-required='true'
             name="Email"
             type="email"
             placeholder="testuser"

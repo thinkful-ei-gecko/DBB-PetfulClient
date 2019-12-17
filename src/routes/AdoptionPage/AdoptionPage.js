@@ -125,14 +125,14 @@ class AdoptionPage extends Component {
   render() {
     return (
       <div>
-        <div className="queue">
+        <div aria-live="polite" className="queue">
           <h2>Now Serving</h2>
           <ul>{this.renderQueue()}</ul>
         </div>
         <h1>Dogs</h1>
-        <div className="dogs">{this.renderDogs()}</div>
+        <div aria-live="polite" className="dogs">{this.renderDogs()}</div>
         <h1>Cats</h1>
-        <div className="cats">{this.renderCats()}</div>
+        <div aria-live="polite" className="cats">{this.renderCats()}</div>
         <p className="CreatedBy">
           || Petful App Created by ||
           <br />
